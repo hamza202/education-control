@@ -53909,3 +53909,6 @@ and (min-width: 1025px) {
 .m-login__signup .form-control{
     padding: 0.6rem 1.15rem;
 }
+.m-brand__logo-wrapper img{
+    max-height: 38px;
+}
