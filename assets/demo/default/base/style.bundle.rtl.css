@@ -31,7 +31,7 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Changa, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
@@ -21862,7 +21862,7 @@ and (max-width: 768px) {
     display: block;
     margin: 0 0 20px 0;
     padding: 0;
-    font-family: "Roboto";
+    font-family: "Changa";
     font-weight: 500
 }
 
@@ -26058,7 +26058,7 @@ button:active, button:focus {
     align-items: center;
     font-size: 1.3rem;
     font-weight: 500;
-    font-family: Roboto;
+    font-family: Changa;
     margin: 0;
     padding: 0
 }
@@ -26068,7 +26068,7 @@ button:active, button:focus {
     padding-right: 5px;
     font-size: 1rem;
     font-weight: 300;
-    font-family: Roboto
+    font-family: Changa
 }
 
 .m-portlet .m-portlet__head .m-portlet__head-caption .m-portlet__head-title .m-portlet__head-text .m-portlet__head-desc {
@@ -26076,7 +26076,7 @@ button:active, button:focus {
     display: block;
     font-size: .85rem;
     font-weight: 300;
-    font-family: Roboto
+    font-family: Changa
 }
 
 .m-portlet .m-portlet__head .m-portlet__head-tools {
@@ -48678,8 +48678,8 @@ body.m-content--skin-light2 {
 }
 
 .m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-nav__link-icon > i:before {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #ad5beb), color-stop(50%, #c678db), color-stop(75%, #da6ea9), to(#e76e92));
-    background: linear-gradient(-180deg, #ad5beb 25%, #c678db 50%, #da6ea9 75%, #e76e92 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #084f41), color-stop(50%, #0d6957), color-stop(75%, #40a591), to(#288a77));
+    background: linear-gradient(-180deg, #084f41 25%, #0d6957 50%, #40a591 75%, #288a77 100%);
     background-clip: text;
     text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -49273,7 +49273,8 @@ body.m-content--skin-light2 {
     .m-aside-left--on .m-aside-left-close {
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
-        right: 229px
+        right: 26px;
+        top: 5px;
     }
 
     .m-aside-left-close.m-aside-left-close--skin-dark {
@@ -52382,23 +52383,23 @@ and (min-width: 1025px) {
 }
 
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-text {
-    color: #716aca
+    color: #ca9408
 }
 
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-icon {
-    color: #716aca
+    color: #ca9408
 }
 
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-bullet.m-menu__link-bullet--dot > span, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-bullet.m-menu__link-bullet--dot > span {
-    background-color: #716aca
+    background-color: #ca9408
 }
 
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-bullet.m-menu__link-bullet--line > span, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-bullet.m-menu__link-bullet--line > span {
-    background-color: #716aca
+    background-color: #ca9408
 }
 
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__ver-arrow, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__ver-arrow {
-    color: #716aca
+    color: #ca9408
 }
 
 .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover {
@@ -53659,7 +53660,7 @@ and (min-width: 1025px) {
 .m-subheader .m-subheader__title {
     display: inline-block;
     padding: 7px 0 7px 25px;
-    font-family: Roboto;
+    font-family: Changa;
     font-weight: 300;
     font-size: 1.55rem;
     font-weight: 500;
